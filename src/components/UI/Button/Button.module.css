@@ -1,0 +1,36 @@
+.btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    border: unset;
+    background: unset;
+}
+
+.btnSmall {
+    padding: 5px;
+}
+
+.solid {
+    background: unset;
+    border: unset;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+}
+
+.success {
+    padding: 10px 32px;
+    background: #0cc531;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.circle {
+    padding: 5px;
+    border-radius: 50%;
+}

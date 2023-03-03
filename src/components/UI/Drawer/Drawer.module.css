@@ -1,0 +1,16 @@
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.2s;
+    background: #fff;
+    width: 40vw;
+    height: 100vh;
+    padding: 0 10px;
+    z-index: 11;
+}
+
+.drawer.active {
+    transform: translateX(0);
+}
